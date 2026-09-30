@@ -1,5 +1,8 @@
-# Caesar Cipher
+# Modified Caesar Cipher
 # Reads a quote from quote.txt and asks the user for an offset (1-20).
+# Unlike a standard Caesar cipher, the offset increases in a repeating
+# pattern of three: 1st character uses offset, 2nd uses offset+1,
+# 3rd uses offset+2, then the pattern repeats.
 
 input_file = open("quote.txt", "r")
 plain_text = input_file.read()
